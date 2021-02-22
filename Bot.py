@@ -21,6 +21,5 @@ def enviar_mensagem(mensagem):
     campo_mensagem[1].send_keys(mensagem)
     campo_mensagem[1].send_keys(Keys.ENTER)
 
-for contato in contatos:
-    buscar_contato(contato)
-    enviar_mensagem(mensagem)
+buscar_contato()
+enviar_mensagem()
